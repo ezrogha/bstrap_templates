@@ -1,0 +1,12 @@
+#navbarList {
+
+  & > * {
+    font-size: 18px;
+    padding-left: 1rem;
+    text-transform: uppercase;
+
+    &:first-child {
+      border-left: 3px solid #444;
+    }
+  }
+}

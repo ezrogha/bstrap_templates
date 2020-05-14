@@ -1,0 +1,23 @@
+#videoPlay {
+  min-height: 200px;
+  position: relative;
+  background: url(../../../../images/media.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 -300px;
+  text-align: center;
+  color: white;
+
+  & > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+  }
+
+  a {
+    color: white;
+  }
+}

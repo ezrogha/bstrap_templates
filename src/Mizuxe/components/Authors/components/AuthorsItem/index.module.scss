@@ -1,0 +1,25 @@
+@import '../../../../css/variables';
+
+#authorItem {
+
+  & > * {
+    &:hover {
+      background-color: $primary-color;
+      color: #ffffff;
+    }
+
+    & > * {
+      & > *:last-child {
+        & > * {
+          & > * {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    margin-top: -60px;
+  }
+}

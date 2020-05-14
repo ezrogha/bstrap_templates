@@ -1,0 +1,13 @@
+@import '../../css/variables';
+
+#authors {
+  h1 {
+    color: $primary-color;
+  }
+
+  #meet {
+    border-bottom: 1px solid #ddd;
+    width: 50%;
+    margin: auto;
+  }
+}

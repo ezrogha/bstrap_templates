@@ -1,0 +1,13 @@
+@import '../../css/variables';
+
+#about {
+  h1 {
+    color: $primary-color;
+  }
+
+  #why {
+    border-bottom: 1px solid #ddd;
+    width: 50%;
+    margin: auto;
+  }
+}

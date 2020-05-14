@@ -1,0 +1,12 @@
+.wrapperClassName {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.toolbarClassName {
+  background-color: rgb(237, 237, 237, 0.6);
+}
+
+.editorClassName {
+  padding: 1rem;
+}

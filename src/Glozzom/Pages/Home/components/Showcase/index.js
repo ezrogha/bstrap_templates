@@ -1,9 +1,9 @@
 import React from "react";
 import { Carousel, Button } from "react-bootstrap";
 
-import Showcase1 from "../../../../images/image1.jpg";
-import Showcase2 from "../../../../images/image2.jpg";
-import Showcase3 from "../../../../images/image3.jpg";
+import Showcase1 from "../../../../images/others/jonatan-pie-h8nxGssjQXs-unsplash.jpg";
+import Showcase2 from "../../../../images/others/rosie-fraser-1L71sPT5XKc-unsplash.jpg";
+import Showcase3 from "../../../../images/others/viktor-juric-O9G6VbqWAy4-unsplash.jpg";
 
 import styles from './index.module.scss'
 

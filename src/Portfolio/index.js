@@ -47,10 +47,10 @@ export default () => {
                 <div className="p-5 bg-dark text-white">
                   <div className="d-flex flex-row justify-content-between align-items-center">
                     <h1 className="display-4">Roghashin Timbiti</h1>
-                    <FaTwitter fontSize="18" />
+                    <FaTwitter fontSize="18" className="d-none d-sm-block" />
                     <FaGithub fontSize="18" />
                     <FaLinkedin fontSize="18" />
-                    <FaFacebook fontSize="18" />
+                    <FaFacebook fontSize="18" className="d-none d-md-block" />
                   </div>
                 </div>
 

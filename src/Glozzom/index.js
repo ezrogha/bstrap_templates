@@ -12,7 +12,7 @@ import Services from "./Pages/Services";
 
 export default () => {
   useEffect(() => {
-    document.title = "Glozzom";
+    document.title = "Grayson";
   }, []);
 
   return (

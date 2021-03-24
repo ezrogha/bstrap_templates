@@ -8,7 +8,7 @@ export default function index() {
   return (
     <Navbar bg="dark" expand="sm" className="looplab_navbar navbar-dark">
       <Container>
-        <Link to="/glozzom/" className="navbar-brand">Glozzom</Link>
+        <Link to="/glozzom/" className="navbar-brand">Grayson</Link>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav id={styles.navbarList} className="ml-auto">

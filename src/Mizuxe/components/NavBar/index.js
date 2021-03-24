@@ -13,7 +13,7 @@ export default ({ getNavRef }) => {
       <Container>
         <Navbar.Brand href="#home">
           <img src={Logo} alt="logo" width="50" height="50" className="mr-2" />
-          <h3 className="d-inline align-middle">Mizuxe</h3>
+          <h3 className="d-inline align-middle">Melanie</h3>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">

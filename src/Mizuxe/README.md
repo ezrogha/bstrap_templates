@@ -1,2 +1,2 @@
-# Mizuxe
+# Melanie
 A React Bootstrap template created with css modules and sass

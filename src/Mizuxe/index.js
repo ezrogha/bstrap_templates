@@ -11,7 +11,7 @@ export default () => {
   const [navBarHeight, setNavBarHeight] = useState(0)
   const navRef = useRef()
   useEffect(() => {
-    document.title = "Mizuxe";
+    document.title = "Melanie";
     setNavBarHeight(navRef.current.clientHeight)
   }, [navBarHeight])
 

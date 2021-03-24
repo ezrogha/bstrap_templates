@@ -19,11 +19,11 @@ export default () => {
     <BrowserRouter>
       <div id={styles.glozzom}>
         <NavBar />
-        <Route path="/glozzom/" exact component={Home} />
-        <Route path="/glozzom/about" component={About} />
-        <Route path="/glozzom/blog" component={Blog} />
-        <Route path="/glozzom/contact" component={Contact} />
-        <Route path="/glozzom/services" component={Services} />
+        <Route path="/grayson/" exact component={Home} />
+        <Route path="/grayson/about" component={About} />
+        <Route path="/grayson/blog" component={Blog} />
+        <Route path="/grayson/contact" component={Contact} />
+        <Route path="/grayson/services" component={Services} />
         <Footer />
       </div>
     </BrowserRouter>

@@ -11,7 +11,7 @@ export default ({ row }) => {
   return (
     <tr>
       {displayRow}
-      <td><Link to="/blogen/details" className="btn btn-secondary btn-sm"><FaAngleDoubleRight /> Details</Link></td>
+      <td><Link to="/bjorn/details" className="btn btn-secondary btn-sm"><FaAngleDoubleRight /> Details</Link></td>
     </tr>
   )
 }

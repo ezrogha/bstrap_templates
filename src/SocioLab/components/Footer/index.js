@@ -12,7 +12,7 @@ export default () => {
       <Container>
         <Row>
           <Col className="py-4 text-center">
-            <h2>LoopLAB</h2>
+            <h2>SocioLAB</h2>
             <p>Copyright &copy; {new Date().getFullYear()}</p>
             <Button variant="primary" onClick={handleShow}>
               Contact

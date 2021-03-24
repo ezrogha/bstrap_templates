@@ -7,7 +7,7 @@ export default function index() {
   return (
     <Navbar id={styles.looplab_navbar} bg="dark" expand="sm" className="navbar-dark fixed-top">
       <Container>
-        <Navbar.Brand href="#home">LoopLAB</Navbar.Brand>
+        <Navbar.Brand href="#home">SocioLAB</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ml-auto">

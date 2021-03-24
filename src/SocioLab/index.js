@@ -10,7 +10,7 @@ import styles from './index.module.css';
 
 export default class index extends Component {
   componentDidMount(){
-    document.title = "LoopLAB"
+    document.title = "SocioLab"
   }
   render() {
     return (

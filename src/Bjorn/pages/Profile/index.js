@@ -1,67 +1,62 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { FaUsps, FaArrowLeft, FaCheck, FaTrash } from "react-icons/fa";
-import { Container, Row, Col, Button, Card, Form } from "react-bootstrap";
+import { Link } from 'react-router-dom'
+import { FaUser, FaArrowLeft, FaTrash, FaLock } from "react-icons/fa";
+import { Container, Row, Col, Button, Card, Form, Image } from "react-bootstrap";
+
 import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 
+import '../Dashboard/components/Actions/index.css'
 import Header from "../../components/Header";
-import "../Dashboard/components/Actions/index.css";
+import Avatar from '../../img/avatar.png'
 
 export default () => {
   return (
     <div>
-      <Header Icon={FaUsps} title="Post One" bgColor="bg-primary" />
+      <Header Icon={FaUser} title="Profile" bgColor="bg-primary" />
+
       <div className="py-4 mb-4 bg-light">
         <Container>
           <Row>
             <Col md="3">
-              <Link to="/blogen/dashboard" className="btn btn-light btn-block" block>
-                <FaArrowLeft /> Back to Dashboard
+              <Link to="/bjorn/dashboard" className="btn btn-light btn-block">
+                <FaArrowLeft /> Back To Dashboard
               </Link>
             </Col>
             <Col md="3">
               <Button variant="success" block>
-                <FaCheck /> Save changes
+                <FaLock /> Change Password
               </Button>
             </Col>
             <Col md="3">
               <Button variant="danger" block>
-                <FaTrash /> Delete Post
+                <FaTrash /> Delete Account
               </Button>
             </Col>
           </Row>
         </Container>
       </div>
-      <div>
+
+      <div className="py-2">
         <Container>
-          <Row className="mt-5">
-            <Col>
+          <Row>
+            <Col md="9">
               <Card>
                 <Card.Header>
-                  <h4>Edit Post</h4>
+                  <h4>Edit Profile</h4>
                 </Card.Header>
                 <Card.Body>
                   <Form>
                     <Form.Group>
-                      <Form.Label>Title</Form.Label>
-                      <Form.Control />
+                      <Form.Label>Name</Form.Label>
+                      <Form.Control type="text" value="Roghashin Timbiti" />
                     </Form.Group>
                     <Form.Group>
-                      <Form.Label>Category</Form.Label>
-                      <Form.Control as="select">
-                        <option>Web Development</option>
-                        <option>Tech & Gadgets</option>
-                        <option>Business</option>
-                        <option>Health & Wellness</option>
-                      </Form.Control>
+                      <Form.Label>Email</Form.Label>
+                      <Form.Control type="email" value="rtimbiti@gmail.com" />
                     </Form.Group>
                     <Form.Group>
-                      <Form.File label="Choose File" custom />
-                      <Form.Text className="text-muted">Max Size 3mb</Form.Text>
-                    </Form.Group>
-                    <Form.Group>
-                      <Form.Label>Body</Form.Label>
+                      <Form.Label>Bio</Form.Label>
                       <Editor
                         // editorState={editorState}
                         toolbarClassName="toolbarClassName"
@@ -73,6 +68,11 @@ export default () => {
                   </Form>
                 </Card.Body>
               </Card>
+            </Col>
+            <Col md="3">
+              <Image src={Avatar} fluid />
+              <Button variant="primary" block className="mt-2">Edit Image</Button>
+              <Button variant="danger" block>Delete Image</Button>
             </Col>
           </Row>
         </Container>

@@ -10,7 +10,7 @@ export default ({ bgColor, title, count, Icon }) => {
         <h4 className="display-4">
           <Icon /> {count}
         </h4>
-        <Link to={`/blogen/${title.toLowerCase()}`} className="btn btn-outline-light">View</Link>
+        <Link to={`/bjorn/${title.toLowerCase()}`} className="btn btn-outline-light">View</Link>
       </Card.Body>
     </Card>
   );

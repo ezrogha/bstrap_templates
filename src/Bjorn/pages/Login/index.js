@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default () => {
   return (
     <div>
-      <Header Icon={FaUser} title="Blogen Admin" bgColor="bg-primary" />
+      <Header Icon={FaUser} title="Bjorn Admin" bgColor="bg-primary" />
 
       <div className="py-4 mb-4 bg-light" />
       <div>
@@ -28,7 +28,7 @@ export default () => {
                       <Form.Label>Password</Form.Label>
                       <Form.Control />
                     </Form.Group>
-                    <Link to="/blogen/dashboard" className="btn btn-primary btn-lg btn-block">Login</Link>
+                    <Link to="/bjorn/dashboard" className="btn btn-primary btn-lg btn-block">Login</Link>
                   </Form>
                 </Card.Body>
               </Card>

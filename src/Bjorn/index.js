@@ -12,18 +12,18 @@ import Profile from './pages/Profile'
 
 export default () => {
   useEffect(() => {
-    document.title = "Blogen"
+    document.title = "Bjorn"
   }, [])
   return (
     <BrowserRouter>
       <NavBar />
-      <Route path="/blogen/" exact component={Login} />
-      <Route path="/blogen/dashboard" component={Dashboard} />
-      <Route path="/blogen/categories" component={Categories} />
-      <Route path="/blogen/details" component={Details} />
-      <Route path="/blogen/posts" component={Posts} />
-      <Route path="/blogen/users" component={Users} />
-      <Route path="/blogen/profile" component={Profile} />
+      <Route path="/bjorn/" exact component={Login} />
+      <Route path="/bjorn/dashboard" component={Dashboard} />
+      <Route path="/bjorn/categories" component={Categories} />
+      <Route path="/bjorn/details" component={Details} />
+      <Route path="/bjorn/posts" component={Posts} />
+      <Route path="/bjorn/users" component={Users} />
+      <Route path="/bjorn/profile" component={Profile} />
       <Footer />
     </BrowserRouter>
   )
